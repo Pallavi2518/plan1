@@ -4,13 +4,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                dir('Plant.java'){
-                    echo "Moved"
+
                     echo "compiling"
                     sh "javac Plant.java"
                     echo "executing"
                     sh "java Plant"
-    }
+    
 }
         }
     }
