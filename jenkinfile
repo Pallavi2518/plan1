@@ -9,7 +9,7 @@ pipeline {
                     echo "compiling"
                     sh "javac Plant.java"
                     echo "executing"
-                    sh "java Plant.java"
+                    sh "java Plant"
     }
 }
         }
